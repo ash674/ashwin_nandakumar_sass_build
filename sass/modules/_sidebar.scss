@@ -1,0 +1,20 @@
+.sidebarC { 
+    background-color: $bckgrd-color; 
+    color: white;
+    position:relative;
+
+    header { 
+        position:relative;
+        background-color: #690800;
+        height:110px; 
+        font-size:1.25rem;
+        margin:0 -15px;
+    }
+    
+     header p { 
+        display:inline;
+        padding-left:10px;
+    }
+
+}
+
