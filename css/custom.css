@@ -1,33 +1,6 @@
 @charset "UTF-8";
 
 
-
-
-
-
-
-
-#mBubble { 
-    position:absolute; 
-    background-color:#853c37; 
-    width:15px; height:15px; 
-    font-size:1rem; 
-    left:25px; 
-    top:-3px; 
-}
-
-
-.profileImg {
-    border: 3px solid white;
-}
-
-.imgText {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    left:12%;
-}
-
 .calendar, .trending, .sports { 
     height:350px;
     background-color: #959595;
@@ -37,9 +10,9 @@
 
 .box2, .box3 { padding-left:0; }
 
-#mainImg { width: 100%; }
 
-.courseStuff, .calendarStuff, .footerStuff { margin:0; }
+
+.courseStuff, .calendarStuff{ margin:0; }
 .courseInfo { 
     position:relative;
     left:40px;
@@ -69,10 +42,6 @@
 
 .bottomCalendar { position:relative; left:40px; }
 
-.dayBox { background-color:#eaeaea; color:#9b9b9b; width:90%; height:275px; }
-.dayMarker { font-size:6rem; font-weight:700; position:relative; top:-20px; }
-.dayBox i {  font-size:3rem; }
-.dayBox i:last-child { position:relative; top:-30px; }
 
 hr { border-color: #ccc; }
 

@@ -19,6 +19,19 @@
 }
 
 
+.profileImg {
+    border: 3px solid white;
+}
+
+
+.imgText {
+    position: $main-position;
+    top: 50%;
+    transform: translateY(-50%);
+    left:12%;
+}
+
+
 .clLogo { 
     position:$main-position;
     top: 50%;
