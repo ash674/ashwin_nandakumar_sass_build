@@ -82,6 +82,31 @@ body .bodyC {
   margin: 0;
 }
 
+#mainImg {
+  width: 100%;
+}
+
+.dayBox {
+  background-color: #eaeaea;
+  color: #9b9b9b;
+  width: 90%;
+  height: 275px;
+}
+.dayBox i {
+  font-size: 3rem;
+}
+.dayBox i:last-child {
+  position: relative;
+  top: -30px;
+}
+
+.dayMarker {
+  font-size: 6rem;
+  font-weight: 700;
+  position: relative;
+  top: -20px;
+}
+
 .sNav {
   font-size: 1.45rem;
 }
@@ -141,6 +166,16 @@ body .bodyC {
   margin-right: 0;
 }
 
+#mBubble {
+  position: absolute;
+  background-color: #853c37;
+  width: 15px;
+  height: 15px;
+  font-size: 1rem;
+  left: 25px;
+  top: -3px;
+}
+
 .sidebarC {
   background-color: #505050;
   color: white;
@@ -156,6 +191,17 @@ body .bodyC {
 .sidebarC header p {
   display: inline;
   padding-left: 10px;
+}
+
+.profileImg {
+  border: 3px solid white;
+}
+
+.imgText {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12%;
 }
 
 .clLogo {
@@ -234,6 +280,7 @@ footer h4 {
 
 .footerStuff {
   padding-bottom: 100px;
+  margin: 0;
 }
 
 .mainCfooter {

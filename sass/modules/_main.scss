@@ -79,3 +79,26 @@ body {
     margin:0;
   }
   
+  #mainImg { width: 100%; }
+
+  .dayBox 
+  { background-color:#eaeaea; 
+    color:#9b9b9b; 
+    width:90%; 
+    height:275px; 
+
+    i {  
+        font-size:3rem;
+     }
+
+    i:last-child { 
+        position:$main-position; top:-30px;
+     }
+
+}
+.dayMarker 
+{ font-size:6rem; 
+    font-weight:700; 
+    position:$main-position; 
+    top:-20px; }
+
