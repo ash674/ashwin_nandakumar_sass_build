@@ -1,10 +1,10 @@
 .sidebarC { 
     background-color: $bckgrd-color; 
     color: white;
-    position:relative;
+    position:$main-position;
 
     header { 
-        position:relative;
+        position:$main-position;
         background-color: #690800;
         height:110px; 
         font-size:1.25rem;
@@ -20,7 +20,7 @@
 
 
 .clLogo { 
-    position:relative;
+    position:$main-position;
     top: 50%;
     transform: translateY(-50%);
     left:40px;
@@ -51,7 +51,7 @@
 
     p:nth-child(2) { font-size:2.2rem; color:#690800; margin-top:-8px; }
 
-    Text { position:relative; top:10px; left:20px; }
+    Text { position:$main-position; top:10px; left:20px; }
 
     ul { color:#9e9e9e; padding-top:5px; font-weight:300; }
 

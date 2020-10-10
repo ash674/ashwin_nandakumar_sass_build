@@ -3,9 +3,6 @@
 
 
 
-#bottomPanel {
-  margin:0;
-}
 
 
 
@@ -31,12 +28,6 @@
     left:12%;
 }
 
-
-
-
-
-
-
 .calendar, .trending, .sports { 
     height:350px;
     background-color: #959595;
@@ -48,7 +39,7 @@
 
 #mainImg { width: 100%; }
 
-.courseStuff, .calendarStuff, .lowerPanelNav, .footerStuff { margin:0; }
+.courseStuff, .calendarStuff, .footerStuff { margin:0; }
 .courseInfo { 
     position:relative;
     left:40px;
@@ -74,10 +65,7 @@
 
 .weeklySched > ul { margin-bottom:0; }
 
-.lowerPanelNav { font-size:1.8rem; }
 
-.lowerPanelNav li { margin-right:60px; cursor:pointer; }
-.lowerPanelNav li:last-child { margin-right:0; }
 
 .bottomCalendar { position:relative; left:40px; }
 
@@ -111,26 +99,7 @@ td i { font-size:5rem; }
 .notViewed { color:#d6b600; }
 .fbActive { color:#666; }
 
-.mainCfooter {
-    margin-top:200px;
-    padding-top:130px;
-    background-color: #444444;
-}
 
-footer h4 {margin:0;}
-footer { background-color: #333; color:white; }
-
-.footerContent li {
-    /*display:inline-block;
-    margin-right:50px;*/
-    max-width:250px;
-}
-
-.footerContent h3 { 
-    font-family:"Lato";
-    font-weight:300;
-    font-size:2.25rem;
-}
 
 .iconHead { position:relative; left:-10px; }
 
@@ -149,8 +118,7 @@ footer { background-color: #333; color:white; }
 .tempLink { text-decoration:underline; }
 .collapseLi { padding-top:5px;}
 
-.footerContent { position:relative; left:7.5%; padding:0; width:90%; }
-.footerStuff { padding-bottom:100px; }
+
 
 /*attempting to style dropdowns*/
 
@@ -181,7 +149,6 @@ footer { background-color: #333; color:white; }
     margin-left:10px; 
 }
 
-.navIndicator { position:relative; height:8px; background-color:#f3d83f; width:210px; }
 
 /* ---- prof portal styles ---*/
 

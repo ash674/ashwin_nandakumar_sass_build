@@ -78,6 +78,10 @@ body .bodyC {
   padding: 15px 0 0 20px;
 }
 
+#bottomPanel {
+  margin: 0;
+}
+
 .sNav {
   font-size: 1.45rem;
 }
@@ -100,7 +104,6 @@ body .bodyC {
 .yellowBoxNav {
   position: relative;
   display: inline-block;
-  /*float:right;*/
   margin-right: 30px;
   text-align: center;
   vertical-align: middle;
@@ -117,6 +120,25 @@ body .bodyC {
   position: relative;
   top: 8px;
   font-size: 3rem;
+}
+
+.navIndicator {
+  position: relative;
+  height: 8px;
+  background-color: #f3d83f;
+  width: 210px;
+}
+
+.lowerPanelNav {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.lowerPanelNav li {
+  margin-right: 60px;
+  cursor: pointer;
+}
+.lowerPanelNav li:last-child {
+  margin-right: 0;
 }
 
 .sidebarC {
@@ -185,6 +207,39 @@ body .bodyC {
 }
 .profPanel span {
   margin-right: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+footer h4 {
+  margin: 0;
+}
+
+.footerContent {
+  position: relative;
+  left: 7.5%;
+  padding: 0;
+  width: 90%;
+}
+.footerContent li {
+  max-width: 250px;
+}
+.footerContent h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 2.25rem;
+}
+
+.footerStuff {
+  padding-bottom: 100px;
+}
+
+.mainCfooter {
+  margin-top: 200px;
+  padding-top: 130px;
+  background-color: #444444;
 }
 
 /*# sourceMappingURL=master.css.map */
