@@ -24,13 +24,14 @@ ul li:hover
 
 .yellowBoxNav {
     position:$main-position;
-    display:inline-block;
-    margin-right:30px;
+    display:left;
+    margin-left: 15px;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    background-color:#f3d83f;
-    top: 50%;
+    background-color:#f8b421;
+    border-radius: 2px;
+    top: 10%;
     transform: translateY(-50%);
     width: 55px;
     height: 45px;
