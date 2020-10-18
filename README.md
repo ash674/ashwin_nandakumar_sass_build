@@ -4,6 +4,8 @@
 This is an simple build using Sass. We modified an already built webpage by creating code modules know as sass. Deconstructed 
 an big whole chunk of css and made that into small code modules so it's easy to work on or modify it. 
 
+Adding Dynamic Content - Using Ajax to retrieve the data and displaying the data using js
+
 
 ## Download
 You'll need git installed locally.
